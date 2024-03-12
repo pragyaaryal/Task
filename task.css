@@ -1,0 +1,449 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.Nav{
+    width: 100%;
+    text-align: right;
+    font: "Playfair Display", serif;
+    font-size: 25px;
+    padding: 30px 20px 10px 20px;
+    background-color: #FFFFFF;
+    position: fixed;
+    z-index: 3;
+}
+.Nav a{
+    text-decoration: none;
+    color:#4C002D;
+    padding: 20px;
+}
+.Nav img{
+    float: left;
+    width: 130px;
+
+}
+
+#Home{
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    background-color:#F7EEFA;
+    height: 100%;
+}
+#Home a{
+    text-decoration: none;
+    color:#4C002D;
+    padding: 30px;
+    size: 50px;
+}
+#Home .media{
+    margin-right:20%;
+    font-size: 50px;
+
+}
+#Home i{
+    color: #4C002D;
+    display: flex;
+    padding: 25px;
+    padding-left: 80px;
+
+}
+
+#About{
+    color: #393939;
+    text-align: center;
+    padding: 30px 130px 30px 130px;
+}
+#About h1{
+    font: "Playfair Display", serif;
+    font-size: 40px;
+    padding: 15px;
+}
+#About h2{
+    font: "Playfair Display", serif;
+    font-size: 30px ;
+    padding: 15px;
+}
+#About p{
+    font: "Playfair Display", serif;
+    font-size: 20px; 
+    padding:15px 10px 20px 10px;
+    color: #000000;
+}
+.Picture{
+    display: flex;
+    
+}
+#About .Picture .lapsi,.mula,.khursani,.masala{
+    margin: 20px;
+}
+#About .Picture img{
+    border-radius: 1px;
+    width: 250px;
+    height: 200px;
+}
+#About .Picture h2{
+    color: #4C002D;
+    font-size: 20px;
+    padding: 15px 0px 0px 0px;
+}
+#About .Picture p{
+    font-size: 15px;
+}
+
+input[type=submit] {
+    background-color: #9879A3;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border: 5px;
+    border-color: #4C002D;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+input[type=submit]:hover {
+    background-color: #4C002D;
+  }
+
+.Founder{
+    padding: 20px 20px 50px 150px  ;
+    display: flex;
+
+}
+.Founder-image img{
+    height: 500px;
+    width: 400px;
+    border-radius: 1px;
+}
+.Founder-Description h1{
+    color: #4C002D;
+    font-size: 50px;
+    padding: 100px 0px 10px 0px;
+}
+.Founder-Description h2{
+    font-size: 30px;
+    padding: 10px 0px 15px 0px;
+}
+.Founder-Description .Links {
+    display: flex;
+}
+.Founder-Description .Links a{
+    /* text-decoration: none; */
+    padding: 10px 20px 20px 30px;
+    color:#4C002D;
+}
+.Founder-Description{
+    margin: 0px 0px 0px 80px
+}
+.Founder-Description p{
+    padding: 0px 20px 0px 0px;
+}
+
+.Founder-Description input[type=submit] {
+    margin: 120px 0px 20px 0px;
+    padding: 12px 20px;
+}
+
+#Services{
+    text-align: center;
+    background-color: #F7EEFA;
+}
+
+#Services .first-row, .second-row{
+    display: flex;
+    padding: 20px;
+}
+#Services .first-row img, .second-row img{
+    width: 250px;
+    height: 250px;
+    border-radius: 1px;
+    margin-left: 130px;
+}
+.label{
+    background-color: #ffffff;
+    margin-left: 130px;
+    width: 300px;
+    height: 100px;
+}
+.label h1{
+    text-decoration: none;
+
+    font-size:20px;
+}
+.label h3{
+    text-decoration: none;
+    padding: 0px 2px 0px 2px;
+    font-size:10px;
+}
+.Services-header h1{
+    text-align: center;
+    font-size: 35px;
+    background-color: #F7EEFA;
+    color: #4C002D;
+    padding: 50px 0px 20px 0px;
+}
+#Services input[type=submit] {
+    background-color: #9879A3;
+    font-size: 25px;
+    width: 120px;
+    height:50px;
+    margin: 30px 0px 50px 0px;
+    color: #FFFFFF;
+    border: 5px;
+    border-color: #4C002D;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+#Services input[type=submit]:hover {
+    background-color: #4C002D;
+  }
+
+#Order input[type=text], select, textarea {
+        width: 400px;
+        padding: 12px; 
+        border: 1px solid #ccc;
+        border-radius: 4px; 
+        margin-top: 6px;
+        margin-bottom: 16px;
+}
+
+#Order h1{
+  padding-bottom: 30px;
+  color:#4C002D;
+  font-size: 30px;
+}
+#Order{
+    display: flex;
+}
+
+#Order .order-form{
+    margin: 120px 0px 20px 250px;
+
+}
+#Order .form-image img{
+    margin: 80px 50px 20px 100px;
+    width:600px;
+    height: 600px;
+}
+
+#Order label{
+    font-size: 15px;
+    color: #000000;
+}
+
+
+video{
+    width: 450px;
+    height: 400px;
+    margin: 0px 0px 20px 180px;
+}
+
+.Products-photo {
+    display: flex;
+    margin: 30px 0px 20px 170px;
+}
+.Products-photo img{
+    width: 220px;
+    height: 150px;
+    margin: 25px;
+
+}
+
+.Products-label img{
+    width: 300px;
+    height: 100px;
+    margin: 30px;
+}
+.Products-label {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Products-label h1 {
+    font-size: 32px;
+    color:#4C002D;
+}
+
+.Products-label .one,
+.Products-label .two,
+.Products-label .three {
+    display: inline-block;
+    position: relative;
+    margin: 10px 10px 100px 0px;
+}
+
+.Products-label img {
+    height: auto;
+    display: block;
+    border-radius: 1px;
+}
+
+.Products-label .label1,
+.Products-label .label2,
+.Products-label .label3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.Products-label .label1 h1,
+.Products-label .label2 h1,
+.Products-label .label3 h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.Products-label .label1 h3,
+.Products-label .label2 h3,
+.Products-label .label3 h3 {
+    font-size: 16px;
+    margin: 0;
+}
+
+#Connect{
+    display: flex;
+    font-size: 60px;
+    background-color: #F7EEFA;
+    color:#edeced;
+    padding: 20px 100px 20px 150px;
+}
+#Connect .column-1 {
+    flex: 1;
+}
+
+#Connect .column-1 img{
+    width: 250px;
+    height: 100px;
+}
+#Connect .column-1 p{
+    color: #000000;
+    font-size: 15px;
+    padding: 5px;
+    margin-right: 50px;
+}
+#Connect i{
+    color: #000000;
+    font-size: 40px;
+    margin: 20px 0px 10px 30px;
+
+}
+#Connect .column-2 h1{
+    margin: 20px 0px 10px 0px;
+    color: #4C002D;
+    font-size: 25px;
+    padding: 5px;
+}
+#Connect .column-3 h1{
+    margin: 20px 0px 0px 80px;
+    color: #4C002D;
+    font-size: 25px;
+    padding: 5px;
+}
+#Connect .column-3 a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    margin: 10px 0px 10px 90px;
+}
+
+
+
+#Connect .column-4 p{
+    margin: 30px 0px 0px 80px;
+    color: #000000;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#Connect .column-4 h1{
+    margin: 20px 0px 0px 80px;
+    color: #4C002D;
+    font-size: 25px;
+    padding: 5px;
+}
+.email-placeholder{
+    margin: 30px 0px 0px 80px;
+    display: flex;
+}
+#Connect input[type=submit] {
+    padding: 12px 20px;
+    margin:10px 30px 20px 3px;
+  }
+
+#Connect input[type=text]{
+    padding: 12px 20px;
+    margin:10px 0px 20px 3px;
+    margin-left: 3px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+}
+
+
+footer{
+    height: 30px;
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+    color: #000000;
+    background-color:#FFFFFF;
+}
+
+
+#Products {
+    position: relative;
+  }
+  
+  .gallery-container {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+  }
+  
+  .gallery-item {
+    flex: 0 0 auto;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-item:first-child,
+  .gallery-item:last-child {
+    opacity: 0.3; /* Setting opacity for side images */
+    filter: blur(5px); /* Applying blur effect */
+  }
+  
+  .gallery-controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .gallery-controls button {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .gallery-controls button:focus {
+    outline: none;
+  }
+  
+  .gallery-controls .prev {
+    transform: rotate(180deg);
+  }
+  

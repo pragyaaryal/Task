@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/pragya/Desktop/Personal/Internship application",
+      "program": "/Users/pragya/Desktop/Personal/Internship application/build/Debug/outDebug"
+    }
+  ]
+}
